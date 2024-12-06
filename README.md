@@ -1,4 +1,4 @@
-# Cross Validation
+# Cross Validation / Validação cruzada
 ## Descrição
 
 Este repositório contém uma implementação do algoritmo de validação cruzada, uma técnica fundamental em aprendizado de máquina para avaliar a eficácia de modelos preditivos. A validação cruzada ajuda a garantir que o modelo não esteja sobreajustado aos dados de treinamento e fornece uma estimativa mais confiável de sua performance em dados não vistos.
