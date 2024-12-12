@@ -1,7 +1,7 @@
-# Cross Validation / Validação cruzada
 ## Descrição
+Este repositório contém uma implementação do algoritmo de validação cruzada e técnicas de seleção de atributos utilizando variância, escritos em Python. A validação cruzada é uma técnica fundamental em aprendizado de máquina para avaliar a eficácia de modelos preditivos, enquanto a seleção de atributos ajuda a melhorar a performance dos modelos, reduzindo a dimensionalidade e eliminando ruídos.
 
-Este repositório contém uma implementação do algoritmo de validação cruzada, uma técnica fundamental em aprendizado de máquina para avaliar a eficácia de modelos preditivos. A validação cruzada ajuda a garantir que o modelo não esteja sobreajustado aos dados de treinamento e fornece uma estimativa mais confiável de sua performance em dados não vistos.
+# Cross Validation
 
 ## O que é Validação Cruzada?
 
@@ -29,3 +29,13 @@ Utilizamos a seguinte abordagem para a seleção de atributos:
 1. **Cálculo da Variância**: Para cada atributo no conjunto de dados, calculamos a variância.
 2. **Definição de um Limite**: Estabelecemos um limite de variância abaixo do qual os atributos serão descartados.
 3. **Filtragem de Atributos**: Atributos com variância abaixo do limite são removidos do conjunto de dados.
+
+## Estrutura do Repositório
+
+- **Cross_validation.py**: Implementação do algoritmo de validação cruzada.
+- **Seleção_usando_variância.py**: Script para seleção de atributos utilizando variância.
+- **LICENSE**: Licença MIT.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
